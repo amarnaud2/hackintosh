@@ -29,10 +29,10 @@ I've followed many tutorials in order to prepare an USB stick to install macOS B
 - [ACPI files](https://dortania.github.io/Getting-Started-With-ACPI/ssdt-platform.html#desktop)
 
 #### Versions I used
-- [OC.Gen-X](https://github.com/amarnaud2/hackintosh/tools/OC.Gen-X.app.zip)
-- [MountEFI](https://github.com/amarnaud2/hackintosh/tools/MountEFI-update.zip)
-- [ProperTree](https://github.com/amarnaud2/hackintosh/tools/ProperTree-master.zip)
-- [ACPI files](https://github.com/amarnaud2/hackintosh/tools/SSDT.zip)
+- [OC.Gen-X](https://github.com/amarnaud2/hackintosh/tree/main/tools/OC.Gen-X.app.zip)
+- [MountEFI](https://github.com/amarnaud2/hackintosh/tree/main/tools/MountEFI-update.zip)
+- [ProperTree](https://github.com/amarnaud2/hackintosh/tree/main/tools/ProperTree-master.zip)
+- [ACPI files](https://github.com/amarnaud2/hackintosh/tree/main/tools/SSDT.zip)
 
 ### Procedure
 1. Create an USB installer for mac OS Big Sur using a Macbook Pro with Big Sur
@@ -49,7 +49,7 @@ I've followed many tutorials in order to prepare an USB stick to install macOS B
 12. Clean snapshot by using 'File' > 'OC Clean Snapshot' in ProperTree and validate
 13. Check values according [OpenCore page for Coffee Lake Desktop](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html#starting-point) and update if necessary
 14. When file seems okay, then save it using 'File' > 'Save' in ProperTree and then quit ProperTree
-15. Check /usb_key/EFI/OC/config.plist file with [OpenCore Sanity Checker](https://opencore.slowgeek.com/). My generated report is [here](https://github.com/amarnaud2/hackintosh/OpenCore-config.plist-Sanity-Checker.pdf)
+15. Check /usb_key/EFI/OC/config.plist file with [OpenCore Sanity Checker](https://opencore.slowgeek.com/). My generated report is [here](https://github.com/amarnaud2/hackintosh/blob/main/OpenCore-config.plist-Sanity-Checker.pdf)
 16. When it's done, completely eject the USB key and unplug it
 17. Turn on target computer and check BIOS settings give [Open Core Intel BIOS settings section](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html#intel-bios-settings)
 18. Plug the USB key on the target machine and reboot
