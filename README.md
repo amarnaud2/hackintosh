@@ -55,4 +55,4 @@ I've followed many tutorials in order to prepare an USB stick to install macOS B
 18. Plug the USB key on the target machine and reboot
 
 ## My current generated EFI
-[ACPI files](https://github.com/amarnaud2/hackintosh/efi-aorus-z390/EFI)
+[ACPI files](https://github.com/amarnaud2/hackintosh/tree/main/efi-aorus-z390/EFI)
